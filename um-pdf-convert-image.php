@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Ultimate Member - PDF convert Image
  * Description:     Extension to Ultimate Member for converting first page of an uploaded PDF file to an Image.
- * Version:         1.0.0
+ * Version:         1.1.0
  * Requires PHP:    7.4
  * Author:          Miss Veronica
  * License:         GPL v2 or later
@@ -51,7 +51,7 @@ class UM_PDF_Convert_Image {
 
         $this->get_convert_pdf_options();
 
-        if ( isset( $files[$this->convert_pdf_upload] )) {
+        if ( isset( $files[$this->convert_pdf_upload] ) && ! empty( $files[$this->convert_pdf_upload] )) {
 
             if ( $files[$this->convert_pdf_upload]  == 'empty_file' ) {
 
