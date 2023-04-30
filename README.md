@@ -17,6 +17,9 @@ UM Settings -> General -> Uploads
 5. Make the Image field non-editable for the user and the PDF file field only viewed by Admin and file owner.
 6. Image is saved with the User's profile images and the file name format is like stream_photo_84c78013_372d28231f3f75a84e7996bcdd5c382448055576.pdf.webp with the hash value shared with the PDF file.
 
+## Updates
+Version 1.1.0 Bug fix
+
 ## Installation
 1. Install by downloading the plugin ZIP file and install as a new Plugin, which you upload in WordPress -> Plugins -> Add New -> Upload Plugin.
 2. Activate the Plugin: Ultimate Member - PDF convert Image
